@@ -64,17 +64,29 @@ This project simulates these scenarios and provides actionable insights using an
 
 - Funnel and KPI outputs suggest that **conversion bottlenecks and retention decay are the primary constraints on growth**.
 
-- ⚠️ A sharp drop in recent DAU and retention metrics is observed due to incomplete data for the most recent cohorts, not an actual decline in user activity.
+- A sharp drop in recent DAU and retention metrics is observed due to incomplete data for the most recent cohorts, not an actual decline in user activity.
 
 ---
 
-## Business Recommendations
+## Business Impact
 
-- Improve onboarding experience to reduce early-stage drop-offs and increase activation rates  
-- Prioritize high-performing channels (social, referral) for user acquisition  
-- Investigate mobile experience to address lower conversion rates  
-- Introduce engagement features to improve Day-7 retention  
-- Validate improvements through controlled A/B experiments before full rollout  
+- Improving onboarding and conversion bottlenecks could increase downstream purchases and overall funnel efficiency
+- Prioritizing high-performing segments such as **social | tablet** and **referral | tablet** can improve acquisition ROI
+- Addressing lower-performing segments like **referral | mobile** may recover lost conversions through UX or targeting improvements
+- Retention remains modest at **~10–15%**, indicating that engagement improvements could meaningfully increase long-term user value
+
+---
+
+## Visual Insights
+
+### Daily Active Users
+![DAU](outputs/daily_active_users.png)
+
+### Day-7 Retention by Cohort
+![Retention](outputs/day7_retention.png)
+
+### Top Segments by Visit-to-Purchase Conversion
+![Segment Conversion](outputs/segment_conversion.png)
 
 ---
 
