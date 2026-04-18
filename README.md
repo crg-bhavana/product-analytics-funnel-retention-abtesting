@@ -89,15 +89,38 @@ This project simulates these scenarios and provides actionable insights using an
 
 ---
 
-## Experimentation Framework
+## Experiment Design & A/B Testing
 
-The A/B testing pipeline includes:
+This project simulates an A/B test to evaluate the impact of a product change on conversion.
 
-* Control vs treatment assignment
-* Metric computation (conversion rate, engagement)
-* Hypothesis testing
-* Statistical significance evaluation
-* Interpretation of practical vs statistical impact
+- **Hypothesis:** The treatment improves visit-to-purchase conversion rate  
+- **Primary Metric:** Conversion rate (visit → purchase)  
+- **Control Conversion Rate:** ~40%  
+- **Treatment Conversion Rate:** ~46%  
+- **Observed Lift:** ~15%  
+
+### Interpretation
+- The treatment shows a **positive lift in conversion**, suggesting the product change improves user behavior
+- Further validation would require statistical significance testing and confidence intervals
+- Long-term impact should be evaluated using retention metrics to ensure no negative downstream effects
+
+---
+
+## Example SQL Analysis
+
+The analyses in this project mirror SQL-based workflows commonly used in product analytics.
+
+### Funnel Conversion
+
+```sql
+SELECT
+  stage,
+  COUNT(DISTINCT user_id) AS users,
+  COUNT(DISTINCT user_id) * 1.0 /
+    LAG(COUNT(DISTINCT user_id)) OVER (ORDER BY stage) AS conversion_rate
+FROM events
+GROUP BY stage;
+```
 
 ---
 
