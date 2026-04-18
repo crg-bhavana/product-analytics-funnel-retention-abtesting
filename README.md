@@ -1,14 +1,13 @@
-# Product Analytics: Funnel, Retention & A/B Testing
+## Product Analytics: Funnel, Retention & A/B Testing
 
-Built an end-to-end product analytics framework to analyze user behavior across a simulated product funnel.  
+Built an end-to-end product analytics system to analyze user behavior across a simulated product funnel and evaluate growth opportunities.
 
-- Identified **~60% drop-off in onboarding funnel**
-- Measured **Day-7 retention of ~10–15%**
-- Evaluated A/B test showing **~15% lift in conversion**
-- Uncovered **~60% variation across user segments**
+- Identified **~60% variation in conversion performance across segments (8% → 13%)**
+- Measured **Day-7 retention of ~10–15%**, indicating moderate engagement
+- Analyzed stable engagement of **~220–270 daily active users (DAU)**
+- Discovered high-performing segments such as **social | tablet (~13% conversion)**
 
-Designed to mirror real-world workflows used by product data science teams at companies like Meta and Airbnb.
-
+This project simulates real-world product analytics workflows used to diagnose funnel drop-offs, measure retention, and evaluate product changes through experimentation.
 ---
 
 ## Business Objective
