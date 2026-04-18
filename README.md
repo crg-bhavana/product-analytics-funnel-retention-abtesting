@@ -79,13 +79,16 @@ This project simulates these scenarios and provides actionable insights using an
 ## Visual Insights
 
 ### Daily Active Users
-![DAU](outputs/daily_active_users.png)
+![DAU](./outputs/daily_active_users.png)
+Consistent DAU suggests stable engagement, with recent end-of-series decline caused by incomplete latest-period data.
 
 ### Day-7 Retention by Cohort
-![Retention](outputs/day7_retention.png)
+![Retention](./outputs/day7_retention.png)
+Day-7 retention remains modest across cohorts, highlighting an opportunity to improve early engagement.
 
 ### Top Segments by Visit-to-Purchase Conversion
-![Segment Conversion](outputs/segment_conversion.png)
+![Segment Conversion](./outputs/segment_conversion.png)
+Tablet users acquired through social and referral channels show the strongest conversion performance.
 
 ---
 
